@@ -8,7 +8,7 @@ Run a local kafka cluster, including python scripts (JSON/Protobuf) to interact 
 - Python 3.8
 
 ## Instructions
-Install Protobuf Compiler, for OSX: 
+Install Protobuf Compiler, for OSX you can use Homebrew: 
 
 `brew install protobuf`
 
