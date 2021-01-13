@@ -5,7 +5,8 @@ services:
     ports:
      - "2181:2181"
   kafka:
-    build: ./kafka-docker-img
+    container_name: kafka_broker
+    image: hidde43/kafka-broker:latest
     ports:
      - "9092:9092"
     expose:
